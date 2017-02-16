@@ -1,6 +1,6 @@
 <template>
-<div>
-	<p>tab1</p>
+<div class="container">
+	
 </div>
 </template>
 
@@ -9,4 +9,9 @@ export default {}
 </script>
 
 <style>
+	.container{
+		position: relative;
+		height: 100%;
+	}
+	
 </style>

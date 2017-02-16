@@ -33,7 +33,14 @@
      </mt-tab-item>
    </mt-tabbar>
 
-   
+   <!--加载动画-->
+   <div class="loading">
+    <img class="resume" src="./assets/imgs/resume.png">
+    <img class="qiuzhi" src="./assets/imgs/qiuzhi.png">
+    <img class="jianli" src="./assets/imgs/jianli.png">
+    <img class="logo" src="./assets/imgs/logo.png">
+    <img class="line" src="./assets/imgs/line.png">
+   </div>
 
 </template>
 
@@ -81,4 +88,44 @@ li {
 a {
   color: #42b983;
 }
+
+/*加载动画*/
+.loading{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left:0;
+  top:0;
+  z-index: 99999;
+}
+.resume{
+    width: 33%;
+    position: absolute;
+    left: 23%;
+    top: 25%;
+  }
+  .qiuzhi{
+    width: 40%;
+    position: absolute;
+    left: 14%;
+    top: 31%;
+  }
+  .jianli{
+    width: 36%;
+    position: absolute;
+    left: 55%;
+    top: 27%;
+  }
+  .logo{
+    width: 55%;
+    position: absolute;
+    left: 9%;
+    top: 42%;
+  }
+  .line{
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+  }
 </style>
